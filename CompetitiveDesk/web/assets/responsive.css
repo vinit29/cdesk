@@ -1,0 +1,279 @@
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 201px) and (max-width : 360px) { /* Styles */
+	.logo {
+		width: 150px;
+		height: 50px;
+		float: left;
+		margin-left: 10px;
+	}
+	#testmenumain {
+		margin-left: -37px;
+	}
+	#testimage {
+		display: none;
+	}
+	#pgfdata {
+		height: 12px;
+		color: #999;
+		font-size: 0.9em;
+		line-height: 0.5em;
+	}
+	ul.rig.columns-4 li {
+		width: 22.5%;
+	}
+	ul.rig li {
+		margin: 0 0 20px;
+		width: 100% !important;
+	}
+	ul.rig li {
+		background: none repeat scroll 0 0 #fff;
+		border: 1px solid #ddd;
+		box-shadow: 0 0 5px #ddd;
+		box-sizing: border-box;
+		display: inline-block;
+		font-size: 1rem;
+		margin: 0 0 2.5% 2.5%;
+		padding: 10px;
+		vertical-align: top;
+	}
+}
+
+
+
+@media only screen and (min-device-width : 360px) and (max-device-width
+	: 640px) {
+	.logo {
+		width: 150px;
+		height: 50px;
+		float: left;
+		margin-left: 10px;
+	}
+	#testmenumain {
+		margin-left: -37px;
+	}
+	#testimage {
+		display: none;
+	}
+	#pgfdata {
+		height: 12px;
+		color: #999;
+		font-size: 0.9em;
+		line-height: 0.5em;
+	}
+	ul.rig.columns-4 li {
+		width: 22.5%;
+	}
+	ul.rig li {
+		margin: 0 0 20px;
+		width: 100% !important;
+	}
+	ul.rig li {
+		background: none repeat scroll 0 0 #fff;
+		border: 1px solid #ddd;
+		box-shadow: 0 0 5px #ddd;
+		box-sizing: border-box;
+		display: inline-block;
+		font-size: 1rem;
+		margin: 0 0 2.5% 2.5%;
+		padding: 10px;
+		vertical-align: top;
+	}
+}
+
+
+
+/* Desktops and laptops ----------- 
+@media only screen and (min-width : 1224px) {
+	.logo {
+		width: 150px;
+		height: 50px;
+		float: left;
+		margin-left: 45px;
+	}
+}
+
+Large screens -----------
+@media only screen and (min-width : 1000px) {
+	.logo {
+		width: 150px;
+		height: 50px;
+		float: left;
+		margin-left: 45px;
+	}
+	#pgfdata {
+		height: 30px;
+		color: #999;
+		font-size: 0.9em;
+		line-height: 1.5em;
+	}
+	ul.rig.columns-4 li {
+		width: 22.5%;
+	}
+	ul.rig li {
+		margin: 0 0 20px;
+		width: 100% !important;
+	}
+	ul.rig li {
+		background: none repeat scroll 0 0 #fff;
+		border: 1px solid #ddd;
+		box-shadow: 0 0 5px #ddd;
+		box-sizing: border-box;
+		display: inline-block;
+		font-size: 1rem;
+		margin: 0 0 2.5% 2.5%;
+		padding: 10px;
+		vertical-align: top;
+	}
+}
+ */
+
+
+.pointerIcon:HOVER {
+	cursor: pointer;
+}
+
+.testinfohead {
+	color: #0073e6;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 12em;
+}
+
+.info {
+	margin: 5px 0px 5px 0px;
+}
+
+#attamp {
+	color: gray;
+	float: left;
+	font-size: 10px;
+	margin-left: 5px;
+}
+
+#createDate {
+	margin-right: 5px;
+	font-size: 10px;
+	color: gray;
+	float: right;
+}
+
+.actButton a {
+	float: right;
+	margin-top: 10px;
+	width: 100%;
+}
+
+hr {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	margin: 25px 0;
+	clear: both;
+}
+
+.centered {
+	text-align: center;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 30px 0;
+}
+/* .container {
+	width: 960px;
+	margin: 0 auto;
+} */
+ul.grid-nav {
+	list-style: none;
+	font-size: .85em;
+	font-weight: 200;
+	text-align: center;
+}
+
+ul.grid-nav li {
+	display: inline-block;
+}
+
+ul.grid-nav li a {
+	display: inline-block;
+	background: #999;
+	color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+ul.grid-nav li a:hover {
+	background: #7b0;
+}
+
+ul.grid-nav li a.active {
+	background: #333;
+}
+
+/* ----- Image grids ----- */
+ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.btmClass {
+	padding-top: 3px;
+	/* background-color: #0073e6; */
+	background-color: #29a329;
+	box-shadow: 0 1px 1px #ccc;
+	text-align: center;
+	height: 30px;
+	color: #ffffff;
+	width: 80px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.btmClass:HOVER {
+	padding-top: 3px;
+	background-color: #1a651a;
+	box-shadow: 0 1px 1px #ccc;
+	text-align: center;
+	height: 30px;
+	color: #ffffff;
+	width: 80px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+
+ul.rig li p {
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #999;
+}

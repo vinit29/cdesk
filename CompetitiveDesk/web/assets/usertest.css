@@ -1,0 +1,124 @@
+.sidemenu ul li.selActive {
+	border-left: 1px solid #0073e6;
+	border-right: 1px solid #0073e6;
+	color: #0073e6;
+}
+
+#sortlink a.anchorActive {
+	color: #0073e6;
+	font-size: 12px;
+}
+
+#sortlink a {
+	color: #868686;
+	cursor: pointer;
+	font-size: 12px;
+}
+
+.sidemenu li {
+	padding: 18px 45px;
+	text-transform: uppercase;
+}
+
+.sidemenu ul li {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: -moz-use-text-color -moz-use-text-color #e8e8e8 #fff;
+	border-image: none;
+	border-style: none none solid solid;
+	border-width: medium medium 1px 1px;
+	color: #868686;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 600;
+	list-style-type: none;
+	padding: 18px 25px;
+	position: relative;
+}
+
+.sidemenu ul li:first-of-type {
+	border-top: 1px solid #e8e8e8;
+}
+
+.profile .sideCon .sidemenu li {
+	padding: 18px 45px;
+	text-transform: uppercase;
+}
+
+/* .sidemenu ul li.sel, .sidemenu ul li:hover {
+      border-left: 1px solid #0073e6;
+     border-right: 1px solid #0073e6; 
+	color: #0073e6;
+}  */
+.nav li:hover {
+	border-left: 1px solid #0073e6;
+	border-right: 1px solid #0073e6;
+	color: #0073e6;
+}
+
+.sidemenu ul li {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: -moz-use-text-color -moz-use-text-color #e8e8e8 #fff;
+	border-image: none;
+	border-style: none none solid solid;
+	border-width: medium medium 1px 1px;
+	color: #868686;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 600;
+	list-style-type: none;
+	padding: 18px 25px;
+	position: relative;
+	margin-right: 20px;
+}
+
+.bicon {
+	background: rgba(0, 0, 0, 0) url("../images/report-sprite.png")
+		no-repeat scroll 0 -34px;
+	display: inline-block;
+	height: 16px;
+	left: 15px;
+	position: absolute;
+	top: 16px;
+	width: 20px;
+}
+
+.texthover:HOVER {
+	cursor: pointer;
+}
+
+.min-height {
+	min-height: 697px;
+}
+
+.sideCon {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px #d8d8d8;
+	float: left;
+	min-height: 697px !important;
+	width: 280px;
+}
+
+.sideConright {
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px #d8d8d8;
+	float: right;
+	min-height: 697px !important;
+	width: 660px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+th,td {
+	padding: 10px 15px;
+}
