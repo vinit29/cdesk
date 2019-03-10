@@ -1,0 +1,11 @@
+# Google Image
+User-agent: Googlebot-Image
+Disallow:
+
+# Google AdSense
+User-agent: Mediapartners-Google
+Disallow:
+
+# Googlebot
+User-agent: Googlebot
+Disallow:
