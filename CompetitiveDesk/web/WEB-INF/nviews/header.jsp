@@ -5,6 +5,7 @@
 <%@page import="org.springframework.context.ApplicationContext"%>
 <%@page import="com.application.config.WebAppInitializer"%>
 <%@page import="com.competitivedesk.entity.UserMaster"%>
+<%@page import="com.competitivedesk.common.util.Constant"%>
 <%@page import="com.competitivedesk.common.util.CommonUtil"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
@@ -31,19 +32,12 @@
 				<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
 			</button>
 			<div class="navbar-brand">
-			<%
-				 if(!appConstant.getValue().equalsIgnoreCase("1")){   
-								%> 
+			 
+								
 				<%-- <a href="<%=request.getContextPath()%>/online-aptitude-test">Competitive Desk</a> --%>
-				<a href="<%=request.getContextPath()%>/docs-home">Competitive Desk</a>
+				<a href="<%=request.getContextPath()%><%=Constant.COMPETITIVE_HOME_PAGE%>">Competitive Desk</a>
 				
-				<% 
-				}else{
-				%> 
-				<a href="<%=request.getContextPath()%>/study-docs">Competitive Desk</a>
-				<% 
-				 }
-				%>
+				
 			</div>
 		</div>
 		<nav class="navbar-collapse collapse" role="navigation" id="bs-navbar-collapse">
