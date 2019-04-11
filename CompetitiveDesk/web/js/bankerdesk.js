@@ -1641,31 +1641,31 @@ function initiatUserLogin() {
                 }      
             },
             messages: {
-              /*  email: {
-                	 required: ""
+                email: {
+                	 required: "Please Enter Your Email !"
               
                 },
                 address: {
-                	 required: ""
+                	 required: "Please Enter Your Address !"
                 },
                 pwd: {
-                	 required: ""
+                	 required: "Please Enter Your Password !"
                 },
                 cpwd: {
-                	 required: ""
+                	 required: "Please Confirm Your Password !"
                 },
                 mobileno: {
-                	 required: ""
+                	 required: "Please Enter Your MobileNO !"
                 },
                 firstname: {
-                	 required: ""
+                	 required: "Please Enter Your FirstName !"
                 },
                 lastname: {
-                	 required: ""
+                	 required: "Please Enter Your Lastname !"
                 },
                 pincode: {
-                	 required: ""
-                }      */
+                	 required: "Please Enter Your PINCODE !"
+                }     
             }
         });
 		 var chk =  $($registeForm).valid();
@@ -1714,6 +1714,7 @@ function initiatUserLogin() {
 	};
 	
 	 var validateLoginDetails = function() {
+		
 		 $loginFrm.validate({
 			highlight : function(element) {
 				$(element).addClass("inputerror");
@@ -1731,10 +1732,10 @@ function initiatUserLogin() {
             },
             messages: {
             	email: {
-                    required: ""
+                    required: "Please Enter Your Email !"
                 },
                 pwd: {
-                    required: ""
+                    required: "Please Enter Your Password !"
                 }
             }
         });
@@ -1745,6 +1746,7 @@ function initiatUserLogin() {
 		  if (!validateLoginDetails()) {
 	            return;
 	       }
+		
 		$("#errormessage").html('');
 		var param = new Object();
 		var data = getParamObj($loginFrm);
@@ -1769,7 +1771,7 @@ function initiatUserLogin() {
 */
 
 		param["data"] = JSON.stringify(data);
-
+		
 		ajaxCallEx("auth/login", param, function(res) {
 			if (res.STATUS == 2) {
 				alert(res.MESSAGE);
