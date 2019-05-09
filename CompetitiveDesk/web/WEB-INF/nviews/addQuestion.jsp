@@ -49,7 +49,9 @@
 </script>
 </head>
 <style>
-
+  .tdclass{
+      padding: 10px;
+  } 
 </style>
 <body>
 	<%
@@ -186,35 +188,35 @@
 				</tr>
 				<tr id="opt">
 					<td>Option 1 :-</td>
-					<td><input type="text" name="opt1" id="INopt1"  class="form-control"/>
+					<td class="tdclass"><input type="text" name="opt1" id="INopt1"  class="form-control"/>
 					    <!-- <input type="hidden" name="hdnINopt1" id="hdnINopt1"/> -->
 					 </td>
 					<td><input type="checkbox" id="opt1" name="answer"/><br></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 2 :-</td>
-					<td><input type="text" name="opt2" id="INopt2"  class="form-control"/>
+					<td class="tdclass"><input type="text" name="opt2" id="INopt2"  class="form-control"/>
 					 <!-- <input type="hidden" name="hdnINopt2" id="hdnINopt2"/> -->
 					 </td>
 					<td><input type="checkbox" id="opt2" name="answer" /><br></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 3 :-</td>
-					<td><input type="text" name="opt3" id="INopt3" class="form-control" /> 
+					<td class="tdclass"><input type="text" name="opt3" id="INopt3" class="form-control" /> 
 					<!-- <input type="hidden" name="hdnINopt3" id="hdnINopt3"/> -->
 					 </td>
 					<td><input type="checkbox" id="opt3" name="answer" /><br></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 4 :-</td>
-					<td><input type="text" name="opt4" id="INopt4" class="form-control" /> 
+					<td class="tdclass"><input type="text" name="opt4" id="INopt4" class="form-control" /> 
 					<!-- <input type="hidden" name="hdnINopt4" id="hdnINopt4"/> -->
 					 </td>
 					<td><input type="checkbox" id="opt4" name="answer" /><br></td>
 				</tr>
 				<tr id="opt" name="OP5">
 					<td>Option 5 :-</td>
-					<td><input type="text" name="opt5" id="INopt5"  class="form-control"/> 
+					<td class="tdclass"><input type="text" name="opt5" id="INopt5"  class="form-control"/> 
 					<!-- <input type="hidden" name="hdnINopt5" id="hdnINopt5"/> -->
 					 </td>
 					<td><input type="checkbox" id="opt5" name="answer" /><br></td>
@@ -222,7 +224,7 @@
 				
 				<tr id="opt">
 					<td>None of this :-</td>
-					<td><select name="none" id="IN_none"  class="form-control" >
+					<td class="tdclass"><select name="none" id="IN_none"  class="form-control" >
 												<option value="0">Select</option>
 												<option value="1">None Of This</option>
 												<option value="5">Option 5</option>
