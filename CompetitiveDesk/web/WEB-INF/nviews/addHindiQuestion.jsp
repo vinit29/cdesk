@@ -22,6 +22,9 @@
 
 </head>
 <style>
+  .tdclass{
+      padding: 10px;
+  } 
 </style>
 <body>
 
@@ -102,37 +105,37 @@
 			<table>
 				<tr id="opt">
 					<td>Option 1 :-</td>
-					<td><input type="text" name="opt1" /></td>
+					<td class="tdclass"><input type="text" name="opt1" /></td>
 					<td><input type="checkbox" id="opt1" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 2 :-</td>
-					<td><input type="text" name="opt2" /></td>
+					<td class="tdclass"><input type="text" name="opt2" /></td>
 					<td><input type="checkbox" id="opt2" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 3 :-</td>
-					<td><input type="text" name="opt3" /></td>
+					<td class="tdclass"><input type="text" name="opt3" /></td>
 					<td><input type="checkbox" id="opt3" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 4 :-</td>
-					<td><input type="text" name="opt4" /></td>
+					<td class="tdclass"><input type="text" name="opt4" /></td>
 					<td><input type="checkbox" id="opt4" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 5 :-</td>
-					<td><input type="text" name="opt5" /></td>
+					<td class="tdclass"><input type="text" name="opt5" /></td>
 					<td><input type="checkbox" id="opt5" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>Option 6 :-</td>
-					<td><input type="text" name="opt6" /></td>
+					<td class="tdclass"><input type="text" name="opt6" /></td>
 					<td><input type="checkbox" id="opt6" name="answer" /></td>
 				</tr>
 				<tr id="opt">
 					<td>None of this :-</td>
-					<td><input type="checkbox" name="none" /></td>
+					<td class="tdclass"><input type="checkbox" name="none" /></td>
 					<td></td>
 				</tr>
 
