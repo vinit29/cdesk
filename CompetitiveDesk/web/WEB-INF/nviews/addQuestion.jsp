@@ -155,7 +155,7 @@
 						</tr>
 						
 						<tr id="que">
-							<td colspan="5"><b>Common Info  :-</b><br>
+							<td colspan="5" class="tdclass"><b>Common Info  :-</b><br>
 								<div>
 									<textarea rows="5" cols="40" id="commonInfo" name="commonInfo"
 										class="form-control"></textarea>
@@ -163,7 +163,7 @@
 									<!-- <input type="text" id="questionhindi" name="questionhindi"> -->
 								</div>
 								</td><td></td>
-<td colspan="5"><b>Solution :-</b><br>
+<td colspan="5" class="tdclass"><b>Solution :-</b><br>
 								<div class="ui-widget">
 									<textarea rows="5" cols="40" id="solution" name="solution"
 										class="form-control"></textarea>
